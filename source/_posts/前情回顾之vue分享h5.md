@@ -477,3 +477,8 @@ tags: vue分享h5
             console.log(error);
             errors(error);
         });
+
+
+# 插件
+
+`import wx from 'weixin-js-sdk'`
