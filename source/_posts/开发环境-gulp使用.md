@@ -27,7 +27,6 @@ tags: gulp
     .pipe(gulp.dest('./build/minified_templates'));
     
 ```
-
 # gulp.task(name[, deps], fn)
 - 定义一个使用 Orchestrator 实现的任务（task）
 - 使用
@@ -36,4 +35,5 @@ tags: gulp
     gulp.task('somename', function() {
     // 做一些事
     });
+
 ```
